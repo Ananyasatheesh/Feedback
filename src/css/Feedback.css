@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(to right, #1e0069 0%, #6372ff 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.contain{
+    border: 2px solid black;
+    width: 150vh;
+    height: 100%;
+    margin-top: 150px;
+    margin-left: 200px;
+    /* padding: 10px; */
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    /* margin-right: 100px; */
+    background-color: #ffffff;
+    border-radius: 4px solid black;
+    border-radius: 14px;
+}
+.left{
+    /* margin-right: 100px; */
+    margin-left: 100px;
+    width: 700px;
+}
+.right{
+    margin-top: 80px;
+    margin-left: 0;
+    margin-right: 100px;
+}
+h3{
+    color: #1e0069;
+    text-decoration: underline;
+    font-size: 30px;
+}
+input, #dd{
+    outline: none;
+    padding: 10px;
+    padding-right: 170px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 50px;
+    text-indent: 50%;
+    background-color: #1e0069;
+    font-size: 15px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #6372ff;
+    border-color: black;
+    color: #1e0069;
+}
+.emoji{
+    padding: 10px;
+    font-size: 60px;
+    margin-right: 20px;
+    
+}
+
+.emoji:hover{
+    color: #560bad;
+    cursor: pointer;
+}
+.emoji.clicked{
+    color: #560bad;
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
