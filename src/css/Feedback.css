@@ -7,7 +7,7 @@ body{
     border: 2px solid black;
     width: 150vh;
     height: 100%;
-    margin-top: 150px;
+    margin-top: 170px;
     margin-left: 200px;
     /* padding: 10px; */
     display: flex;
@@ -15,8 +15,10 @@ body{
     justify-content: center;
     /* margin-right: 100px; */
     background-color: #ffffff;
+    background-attachment: fixed;
     border-radius: 4px solid black;
     border-radius: 14px;
+    background-repeat: no-repeat;
 }
 .left{
     /* margin-right: 100px; */
@@ -67,8 +69,4 @@ button:hover{
 .emoji.clicked{
     color: #560bad;
 
-}
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
 }
