@@ -20,7 +20,7 @@ const Feedback = () => {
         setEmj2(false)
         setEmj3(false)
         setEmj4(false)
-        setEmj1("Sorry for the inconvenience. We'll address the issue promptly")
+        setEmj1("Sorry for the inconvenience. We'll address the issue promptly :(")
 
     }
     function handleClick2(){
@@ -28,14 +28,14 @@ const Feedback = () => {
         setEmj3(false)
         setEmj4(false)
         setEmj1(false)
-        setEmj2("Thanks for your feedback. We're always working to improve")
+        setEmj2("Thanks for your feedback. We're always working to improve ):")
     }
     function handleClick3(){
         setEmj3(true)
         setEmj1(false)
         setEmj4(false)
         setEmj2(false)
-        setEmj3("Glad you had a good experience! Thank you for your feedback")     
+        setEmj3("Glad you had a good experience! Thank you for your feedback :)")     
 
 
     }
@@ -44,9 +44,12 @@ const Feedback = () => {
         setEmj1(false)
         setEmj2(false)
         setEmj3(false)
-        setEmj4("Your laughter brings joy! Thanks for the positive vibes and sharing the smiles")
+        setEmj4("Your laughter brings joy! Thanks for the positive vibes and sharing the smiles >.<")
 
 
+    }
+    function handleOnSubmit(){
+        alert("Feedback Submitted Successfully..!")
     }
 
     return (
@@ -77,7 +80,7 @@ const Feedback = () => {
                 </select><br/><br />
                 Please leave your feedback below <br/><br />
                 <input type="text" /> <br /> <br />
-                <button type="submit">Submit</button><br /><br />
+                <button type="submit" onClick={handleOnSubmit}>Submit</button><br /><br />
                 </div>
             </div>
             </form>
